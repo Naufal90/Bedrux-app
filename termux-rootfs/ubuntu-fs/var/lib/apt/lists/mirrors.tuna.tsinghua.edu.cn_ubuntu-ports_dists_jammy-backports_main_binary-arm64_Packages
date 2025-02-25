@@ -1,0 +1,259 @@
+Package: elfutils
+Architecture: arm64
+Version: 0.188-1~bpo22.04.1
+Multi-Arch: foreign
+Priority: optional
+Section: utils
+Origin: Ubuntu
+Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
+Original-Maintainer: Debian Elfutils Maintainers <debian-gcc@lists.debian.org>
+Bugs: https://bugs.launchpad.net/ubuntu/+filebug
+Installed-Size: 2659
+Depends: libasm1 (>= 0.132), libc6 (>= 2.34), libdw1 (= 0.188-1~bpo22.04.1), libelf1 (= 0.188-1~bpo22.04.1), libstdc++6 (>= 4.1.1)
+Filename: pool/main/e/elfutils/elfutils_0.188-1~bpo22.04.1_arm64.deb
+Size: 492726
+MD5sum: f7d72232b4750855de0403b979d0be33
+SHA1: c6d1ee6cdea59cd9436053bab510ec847074ecb1
+SHA256: 01309f00d9e77f203acc1cc585e5a9f809e89916c2ede9f5df407e348786b97c
+SHA512: 8dafd5fbbbbf840de46186e23894ef0967b0d8edb80d88fdf550f4a9f81de18cb85419ae79d4a9db2587297b0471dfa6537e6d0b788a59aa1d18a93ba02ac9f5
+Homepage: https://sourceware.org/elfutils/
+Description: collection of utilities to handle ELF objects
+Description-md5: f888bb36a86d79063156ad9a0a117cad
+
+Package: libasm-dev
+Architecture: arm64
+Version: 0.188-1~bpo22.04.1
+Multi-Arch: same
+Priority: optional
+Section: libdevel
+Source: elfutils
+Origin: Ubuntu
+Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
+Original-Maintainer: Debian Elfutils Maintainers <debian-gcc@lists.debian.org>
+Bugs: https://bugs.launchpad.net/ubuntu/+filebug
+Installed-Size: 119
+Depends: libasm1 (= 0.188-1~bpo22.04.1), libelf-dev
+Conflicts: libasm0-dev, libelfsh0-dev
+Filename: pool/main/e/elfutils/libasm-dev_0.188-1~bpo22.04.1_arm64.deb
+Size: 18762
+MD5sum: f13779f76d1774a3d2f1bc8a1b8b4788
+SHA1: eb70a9ba6f04675754d52d0f4f70679bf37c39d5
+SHA256: a4dbcd52725ad1ae15af25126d73d87c4445d15ab22cf5fe9814df5759943065
+SHA512: 81a9d3d17d0eb19007c28a56d23065f2d18ec6f241c48a42109d0f7b971a18bfed10746c9f5d8f28e404ae3ebaf71de8d4a9cd70d196d557dd354bf21defa3df
+Homepage: https://sourceware.org/elfutils/
+Description: libasm development libraries and header files
+Description-md5: 013678075a0c3718f0cb70bbd4172cbb
+
+Package: libasm1
+Architecture: arm64
+Version: 0.188-1~bpo22.04.1
+Multi-Arch: same
+Priority: optional
+Section: libs
+Source: elfutils
+Origin: Ubuntu
+Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
+Original-Maintainer: Debian Elfutils Maintainers <debian-gcc@lists.debian.org>
+Bugs: https://bugs.launchpad.net/ubuntu/+filebug
+Installed-Size: 72
+Depends: libc6 (>= 2.17), libdw1 (= 0.188-1~bpo22.04.1), libelf1 (= 0.188-1~bpo22.04.1)
+Filename: pool/main/e/elfutils/libasm1_0.188-1~bpo22.04.1_arm64.deb
+Size: 15426
+MD5sum: 3b2acdfb5e96d07005a6797de505199b
+SHA1: e2291034d1ea97d517364f2b90a8ca6fd5e7729f
+SHA256: 7c5f50b342755b7375932eed8fcaf8fec224ead9fe87f0ca99c2a69bc7ab7c81
+SHA512: 59b1ed39687cfe7f5beaf86ed9ba81fd65873f50223be7a7a3d32c87108559af31f206d8533fad4ec44ac67b0b4207f3a270070cced289ef7be0fe2697498fc7
+Homepage: https://sourceware.org/elfutils/
+Description: library with a programmable assembler interface
+Description-md5: 109ac518b441c307fe4c75e886e56331
+
+Package: libdebuginfod-common
+Architecture: all
+Version: 0.188-1~bpo22.04.1
+Multi-Arch: foreign
+Priority: optional
+Section: devel
+Source: elfutils
+Origin: Ubuntu
+Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
+Original-Maintainer: Debian Elfutils Maintainers <debian-gcc@lists.debian.org>
+Bugs: https://bugs.launchpad.net/ubuntu/+filebug
+Installed-Size: 47
+Pre-Depends: debconf
+Depends: debconf (>= 0.5) | debconf-2.0, ucf
+Filename: pool/main/e/elfutils/libdebuginfod-common_0.188-1~bpo22.04.1_all.deb
+Size: 7774
+MD5sum: f219f5f14bcaf5d85a10d4420c920c4b
+SHA1: 92b1ab0bc2e338ad8a3b15dc82c58c2c9488a455
+SHA256: af91d00fa2e4550dd8b8a672224eed46f4653e9315c3c606d2b52b23d66450af
+SHA512: 60a5ef347c264b8cd03fb753e9e32a4306855f95254a567a35311bf68a3c8ae070b9f5797fbbe84a58c3de7cb61b16f961bb2be34875b9d66030c4784f69cc23
+Homepage: https://sourceware.org/elfutils/
+Description: configuration to enable the Debian debug info server
+Task: ubuntu-desktop-minimal, ubuntu-desktop, kubuntu-desktop, xubuntu-desktop, ubuntustudio-desktop-core, ubuntustudio-desktop, ubuntukylin-desktop, ubuntu-mate-core, ubuntu-mate-desktop, ubuntu-budgie-desktop, ubuntu-budgie-desktop-raspi
+Description-md5: 2119791df8405022ae0834bc3112a0b5
+
+Package: libdebuginfod-dev
+Architecture: arm64
+Version: 0.188-1~bpo22.04.1
+Multi-Arch: same
+Priority: optional
+Section: libdevel
+Source: elfutils
+Origin: Ubuntu
+Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
+Original-Maintainer: Debian Elfutils Maintainers <debian-gcc@lists.debian.org>
+Bugs: https://bugs.launchpad.net/ubuntu/+filebug
+Installed-Size: 59
+Depends: libdebuginfod1 (= 0.188-1~bpo22.04.1), libelf-dev
+Filename: pool/main/e/elfutils/libdebuginfod-dev_0.188-1~bpo22.04.1_arm64.deb
+Size: 8314
+MD5sum: c89edd1999aff827288ec7923aecbc60
+SHA1: 80302f380eb3f4d88059b93ca9c91780d0f48592
+SHA256: aefb639a25aa2c619e9c9df3c06c4f82de80b09f63940a036c8075ec4680d7a3
+SHA512: c199400bf6f0c78fc214b9f7eaf6edcc52748bc37263eb4e54e02f0e41e8cd684f4e9aa9f9ac2c972e47e016d4bd21a906382384be90595e7e531938a6b0a7fb
+Homepage: https://sourceware.org/elfutils/
+Description: libdebuginfod development libraries and header files
+Description-md5: 9371082d55db239b8b7d2b8bd008b1bc
+
+Package: libdebuginfod1
+Architecture: arm64
+Version: 0.188-1~bpo22.04.1
+Multi-Arch: same
+Priority: optional
+Section: libs
+Source: elfutils
+Origin: Ubuntu
+Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
+Original-Maintainer: Debian Elfutils Maintainers <debian-gcc@lists.debian.org>
+Bugs: https://bugs.launchpad.net/ubuntu/+filebug
+Installed-Size: 67
+Depends: libc6 (>= 2.34), libcurl3-gnutls (>= 7.28.0), libelf1 (= 0.188-1~bpo22.04.1), libdw1 (= 0.188-1~bpo22.04.1), libdebuginfod-common (>= 0.188-1~bpo22.04.1)
+Filename: pool/main/e/elfutils/libdebuginfod1_0.188-1~bpo22.04.1_arm64.deb
+Size: 14186
+MD5sum: e5d0dc0514b256c58a4f6f8e7fbf5bf7
+SHA1: 9de8debcbfdbfd78a5de4be1aab8ef32f58e53cf
+SHA256: 391cb72f2b76376716071cdf0bc2435d798099a5e6c6afdd89f320c271c17467
+SHA512: 5a5960ff680b3c748a037a646b2b60691d9993d0390f2e2c992b43c7fa9ad4f16d627e176dbaa7f98f101dcc89c74ec661883097f0c35dd776270e14b11dbadd
+Homepage: https://sourceware.org/elfutils/
+Description: library to interact with debuginfod (development files)
+Task: ubuntu-desktop-minimal, ubuntu-desktop, kubuntu-desktop, xubuntu-desktop, ubuntustudio-desktop-core, ubuntustudio-desktop, ubuntukylin-desktop, ubuntu-mate-core, ubuntu-mate-desktop, ubuntu-budgie-desktop, ubuntu-budgie-desktop-raspi
+Description-md5: d62f7cacb6384ca72053831f668bd54c
+
+Package: libdw-dev
+Architecture: arm64
+Version: 0.188-1~bpo22.04.1
+Multi-Arch: same
+Priority: optional
+Section: libdevel
+Source: elfutils
+Origin: Ubuntu
+Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
+Original-Maintainer: Debian Elfutils Maintainers <debian-gcc@lists.debian.org>
+Bugs: https://bugs.launchpad.net/ubuntu/+filebug
+Installed-Size: 1641
+Depends: libelf-dev, libdw1 (= 0.188-1~bpo22.04.1), zlib1g-dev, liblzma-dev
+Filename: pool/main/e/elfutils/libdw-dev_0.188-1~bpo22.04.1_arm64.deb
+Size: 324822
+MD5sum: 80f3b054b8f90a00059ae8cab5115a3a
+SHA1: 6db2e5b8e9e705b11c94eb6ed9e576efec5fadea
+SHA256: 8fb097753d576ea3c5474e2ee0f97d5d82acd77597b65fba14d8b9c05e1b732e
+SHA512: a5fedf3b2b18c064a8d74b95262333cb0b29367deee139c446e9423e47aa0330c08afee2ac9eff9efab7f5505abd85eecc4980c87b2f0162adf33e94ab9c336a
+Homepage: https://sourceware.org/elfutils/
+Description: libdw1 development libraries and header files
+Description-md5: f125fde79e7cf4843502f64d2aca123c
+
+Package: libdw1
+Architecture: arm64
+Version: 0.188-1~bpo22.04.1
+Multi-Arch: same
+Priority: optional
+Section: libs
+Source: elfutils
+Origin: Ubuntu
+Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
+Original-Maintainer: Debian Elfutils Maintainers <debian-gcc@lists.debian.org>
+Bugs: https://bugs.launchpad.net/ubuntu/+filebug
+Installed-Size: 703
+Depends: libbz2-1.0, libc6 (>= 2.34), libelf1 (= 0.188-1~bpo22.04.1), liblzma5 (>= 5.1.1alpha+20120614), zlib1g (>= 1:1.2.2.3)
+Filename: pool/main/e/elfutils/libdw1_0.188-1~bpo22.04.1_arm64.deb
+Size: 247922
+MD5sum: fba5b6ac2aabbe65601232c601e050a6
+SHA1: bf5c3fa0fd330b89df59f8b5b6467f05f410bf6a
+SHA256: 1278fbd398b1484de6ecbd2daec03f11829819d34e5bddd2aaefaa11376de0c8
+SHA512: add9a0b05d48d511314cbf3e6f1ed35464a26becdbc1979cb017b6193432a3c2acfe38fbc20564266efc40b6ebadcbe85d813f630d970fe3ed24fad8b2f05717
+Homepage: https://sourceware.org/elfutils/
+Description: library that provides access to the DWARF debug information
+Task: ubuntu-desktop-minimal, ubuntu-desktop, cloud-image, ubuntu-desktop-raspi, ubuntu-wsl, server, ubuntu-server-raspi, kubuntu-desktop, xubuntu-core, xubuntu-desktop, lubuntu-desktop, ubuntustudio-desktop-core, ubuntustudio-desktop, ubuntukylin-desktop, ubuntu-mate-core, ubuntu-mate-desktop, ubuntu-budgie-desktop, ubuntu-budgie-desktop-raspi
+Description-md5: 6238c70828caf72448d9f8116f0e5c97
+
+Package: libelf-dev
+Architecture: arm64
+Version: 0.188-1~bpo22.04.1
+Multi-Arch: same
+Priority: optional
+Section: libdevel
+Source: elfutils
+Origin: Ubuntu
+Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
+Original-Maintainer: Debian Elfutils Maintainers <debian-gcc@lists.debian.org>
+Bugs: https://bugs.launchpad.net/ubuntu/+filebug
+Installed-Size: 371
+Depends: libelf1 (= 0.188-1~bpo22.04.1), zlib1g-dev
+Conflicts: libelfg0-dev
+Filename: pool/main/e/elfutils/libelf-dev_0.188-1~bpo22.04.1_arm64.deb
+Size: 66436
+MD5sum: 413cce080f8ae563e3098d9f5abf45d7
+SHA1: fad71400fd31762ca38b042ad74737cd871290b4
+SHA256: c347492cc4b868c7248de1960cf279f1efd04efef717544a98b13814ddb7e91a
+SHA512: ed9f29131671270022869bf486baac746df939aa09fc258cb67ce928f1f61d688c65c8db6cb810da7646127247e8c7dcb4a4b0af412138c2ce745c96d495855b
+Homepage: https://sourceware.org/elfutils/
+Description: libelf1 development libraries and header files
+Description-md5: 987fe60edac82d9ad80df9bdb9c08f33
+
+Package: libelf1
+Architecture: arm64
+Version: 0.188-1~bpo22.04.1
+Multi-Arch: same
+Priority: important
+Section: libs
+Source: elfutils
+Origin: Ubuntu
+Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
+Original-Maintainer: Debian Elfutils Maintainers <debian-gcc@lists.debian.org>
+Bugs: https://bugs.launchpad.net/ubuntu/+filebug
+Installed-Size: 1050
+Depends: libc6 (>= 2.33), zlib1g (>= 1:1.1.4)
+Filename: pool/main/e/elfutils/libelf1_0.188-1~bpo22.04.1_arm64.deb
+Size: 188522
+MD5sum: 233713c2acdb5330db05bd2848aa5fa5
+SHA1: d97eff3495d33145c70ea639bd686a87572efbce
+SHA256: 7ca951684139c380f2f161ca9d474bbb8a61164aaf754905c563ee8778f8b00c
+SHA512: 61940817489ae8bf58ff67d6cd5e7a265198730b8e656fe69450284e2620acc22f902213737af08d0d70dd422d7f15fef8d9d51a003bcc42a4d38b87737e92ec
+Homepage: https://sourceware.org/elfutils/
+Description: library to read and write ELF files
+Task: minimal, server-minimal
+Description-md5: 5188e87e91e6292255a5ccd72d2f25ed
+
+Package: python3-pyelftools
+Architecture: all
+Version: 0.29-1~bpo22.04.1
+Multi-Arch: foreign
+Priority: extra
+Section: python
+Source: python-pyelftools
+Origin: Ubuntu
+Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
+Original-Maintainer: Tomasz Buchert <tomasz@debian.org>
+Bugs: https://bugs.launchpad.net/ubuntu/+filebug
+Installed-Size: 609
+Depends: python3:any
+Filename: pool/main/p/python-pyelftools/python3-pyelftools_0.29-1~bpo22.04.1_all.deb
+Size: 115862
+MD5sum: bec83f5ddbefd80138228b4bb1ae82a4
+SHA1: 5a4505c0e76e152408a162c1b7f2aec4421ca2da
+SHA256: 8715ecf41d1d256545d304654416ada666de8fe88ec9c921ff85b9802804eeeb
+SHA512: d8115945e5a405e9e45320f7f3a968a716657c1b87cd4185224dab0b46a2e9a929e5cb8fabf6fd4e6f4de78ea5118334c2e57ac1e1f008a0eff8ba43c48941d4
+Homepage: https://github.com/eliben/pyelftools
+Description: pure-python3 library for parsing ELF and DWARF
+Description-md5: 1d7cb2f5023550580703e2f9f8c54fba
+

@@ -1,0 +1,95 @@
+
+Log started: 2023-01-08  08:58:36
+
+Selecting previously unselected package tzdata.
+(Reading database ... (Reading database ... 5%(Reading database ... 10%(Reading database ... 15%(Reading database ... 20%(Reading database ... 25%(Reading database ... 30%(Reading database ... 35%(Reading database ... 40%(Reading database ... 45%(Reading database ... 50%(Reading database ... 55%(Reading database ... 60%(Reading database ... 65%(Reading database ... 70%(Reading database ... 75%(Reading database ... 80%(Reading database ... 85%(Reading database ... 90%(Reading database ... 95%(Reading database ... 100%(Reading database ... 4387 files and directories currently installed.)
+Preparing to unpack .../tzdata_2022g-0ubuntu0.22.04.1_all.deb ...
+Unpacking tzdata (2022g-0ubuntu0.22.04.1) ...
+Setting up tzdata (2022g-0ubuntu0.22.04.1) ...
+debconf: unable to initialize frontend: Dialog
+debconf: (No usable dialog-like program is installed, so the dialog based frontend cannot be used. at /usr/share/perl5/Debconf/FrontEnd/Dialog.pm line 78.)
+debconf: falling back to frontend: Readline
+debconf: unable to initialize frontend: Readline
+debconf: (Can't locate Term/ReadLine.pm in @INC (you may need to install the Term::ReadLine module) (@INC contains: /etc/perl /usr/local/lib/aarch64-linux-gnu/perl/5.34.0 /usr/local/share/perl/5.34.0 /usr/lib/aarch64-linux-gnu/perl5/5.34 /usr/share/perl5 /usr/lib/aarch64-linux-gnu/perl-base /usr/lib/aarch64-linux-gnu/perl/5.34 /usr/share/perl/5.34 /usr/local/lib/site_perl) at /usr/share/perl5/Debconf/FrontEnd/Readline.pm line 7.)
+debconf: falling back to frontend: Teletype
+Configuring tzdata
+------------------
+
+Please select the geographic area in which you live. Subsequent configuration questions will narrow this down by presenting a list of cities, representing the time zones in which they are located.
+
+  1. Africa  2. America  3. Antarctica  4. Australia  5. Arctic  6. Asia  7. Atlantic  8. Europe  9. Indian  10. Pacific  11. US  12. Etc
+Geographic area: 6
+
+Please select the city or region corresponding to your time zone.
+
+  1. Aden    7. Ashgabat  13. Barnaul     19. Chongqing  25. Dushanbe     31. Hong_Kong  37. Jerusalem  43. Khandyga      49. Macau     55. Novokuznetsk  61. Pyongyang  67. Sakhalin       73. Taipei    79. Tokyo          85. Vientiane
+  2. Almaty  8. Atyrau    14. Beirut      20. Colombo    26. Famagusta    32. Hovd       38. Kabul      44. Kolkata       50. Magadan   56. Novosibirsk   62. Qatar      68. Samarkand      74. Tashkent  80. Tomsk          86. Vladivostok
+  3. Amman   9. Baghdad   15. Bishkek     21. Damascus   27. Gaza         33. Irkutsk    39. Kamchatka  45. Krasnoyarsk   51. Makassar  57. Omsk          63. Qostanay   69. Seoul          75. Tbilisi   81. Ujung_Pandang  87. Yakutsk
+  4. Anadyr  10. Bahrain  16. Brunei      22. Dhaka      28. Harbin       34. Istanbul   40. Karachi    46. Kuala_Lumpur  52. Manila    58. Oral          64. Qyzylorda  70. Shanghai       76. Tehran    82. Ulaanbaatar    88. Yangon
+  5. Aqtau   11. Baku     17. Chita       23. Dili       29. Hebron       35. Jakarta    41. Kashgar    47. Kuching       53. Muscat    59. Phnom_Penh    65. Rangoon    71. Singapore      77. Tel_Aviv  83. Urumqi         89. Yekaterinburg
+  6. Aqtobe  12. Bangkok  18. Choibalsan  24. Dubai      30. Ho_Chi_Minh  36. Jayapura   42. Kathmandu  48. Kuwait        54. Nicosia   60. Pontianak     66. Riyadh     72. Srednekolymsk  78. Thimphu   84. Ust-Nera       90. Yerevan
+Time zone: 70
+
+
+Current default time zone: 'Asia/Shanghai'
+Local time is now:      Sun Jan  8 16:58:48 CST 2023.
+Universal Time is now:  Sun Jan  8 08:58:48 UTC 2023.
+Run 'dpkg-reconfigure tzdata' if you wish to change it.
+
+Log ended: 2023-01-08  08:58:48
+
+Log started: 2023-01-08  16:59:16
+Selecting previously unselected package locales.
+(Reading database ... (Reading database ... 5%(Reading database ... 10%(Reading database ... 15%(Reading database ... 20%(Reading database ... 25%(Reading database ... 30%(Reading database ... 35%(Reading database ... 40%(Reading database ... 45%(Reading database ... 50%(Reading database ... 55%(Reading database ... 60%(Reading database ... 65%(Reading database ... 70%(Reading database ... 75%(Reading database ... 80%(Reading database ... 85%(Reading database ... 90%(Reading database ... 95%(Reading database ... 100%(Reading database ... 6266 files and directories currently installed.)
+Preparing to unpack .../locales_2.35-0ubuntu3.1_all.deb ...
+Unpacking locales (2.35-0ubuntu3.1) ...
+Selecting previously unselected package language-pack-zh-hant-base.
+Preparing to unpack .../language-pack-zh-hant-base_1%3a22.04+20220721_all.deb ...
+Unpacking language-pack-zh-hant-base (1:22.04+20220721) ...
+Selecting previously unselected package language-pack-zh-hant.
+Preparing to unpack .../language-pack-zh-hant_1%3a22.04+20220721_all.deb ...
+Unpacking language-pack-zh-hant (1:22.04+20220721) ...
+Setting up locales (2.35-0ubuntu3.1) ...
+debconf: unable to initialize frontend: Dialog
+debconf: (No usable dialog-like program is installed, so the dialog based frontend cannot be used. at /usr/share/perl5/Debconf/FrontEnd/Dialog.pm line 78.)
+debconf: falling back to frontend: Readline
+debconf: unable to initialize frontend: Readline
+debconf: (Can't locate Term/ReadLine.pm in @INC (you may need to install the Term::ReadLine module) (@INC contains: /etc/perl /usr/local/lib/aarch64-linux-gnu/perl/5.34.0 /usr/local/share/perl/5.34.0 /usr/lib/aarch64-linux-gnu/perl5/5.34 /usr/share/perl5 /usr/lib/aarch64-linux-gnu/perl-base /usr/lib/aarch64-linux-gnu/perl/5.34 /usr/share/perl/5.34 /usr/local/lib/site_perl) at /usr/share/perl5/Debconf/FrontEnd/Readline.pm line 7.)
+debconf: falling back to frontend: Teletype
+Generating locales (this might take a while)...
+  zh_HK.UTF-8... done
+  zh_TW.UTF-8... done
+Generation complete.
+Setting up language-pack-zh-hant (1:22.04+20220721) ...
+Setting up language-pack-zh-hant-base (1:22.04+20220721) ...
+Generating locales (this might take a while)...
+Generation complete.
+Log ended: 2023-01-08  16:59:30
+
+Log started: 2023-01-08  16:59:40
+
+
+
+
+
+
+(Reading database ... (Reading database ... 5%(Reading database ... 10%(Reading database ... 15%(Reading database ... 20%(Reading database ... 25%(Reading database ... 30%(Reading database ... 35%(Reading database ... 40%(Reading database ... 45%(Reading database ... 50%(Reading database ... 55%(Reading database ... 60%(Reading database ... 65%(Reading database ... 70%(Reading database ... 75%(Reading database ... 80%(Reading database ... 85%(Reading database ... 90%(Reading database ... 95%(Reading database ... 100%(Reading database ... 7162 files and directories currently installed.)
+Removing language-pack-zh-hant-base (1:22.04+20220721) ...
+Removing language-pack-zh-hant (1:22.04+20220721) ...
+Log ended: 2023-01-08  16:59:40
+
+Log started: 2023-01-08  16:59:52
+Selecting previously unselected package language-pack-zh-hans-base.
+(Reading database ... (Reading database ... 5%(Reading database ... 10%(Reading database ... 15%(Reading database ... 20%(Reading database ... 25%(Reading database ... 30%(Reading database ... 35%(Reading database ... 40%(Reading database ... 45%(Reading database ... 50%(Reading database ... 55%(Reading database ... 60%(Reading database ... 65%(Reading database ... 70%(Reading database ... 75%(Reading database ... 80%(Reading database ... 85%(Reading database ... 90%(Reading database ... 95%(Reading database ... 100%(Reading database ... 6886 files and directories currently installed.)
+Preparing to unpack .../language-pack-zh-hans-base_1%3a22.04+20220721_all.deb ...
+Unpacking language-pack-zh-hans-base (1:22.04+20220721) ...
+Selecting previously unselected package language-pack-zh-hans.
+Preparing to unpack .../language-pack-zh-hans_1%3a22.04+20220721_all.deb ...
+Unpacking language-pack-zh-hans (1:22.04+20220721) ...
+Setting up language-pack-zh-hans (1:22.04+20220721) ...
+Setting up language-pack-zh-hans-base (1:22.04+20220721) ...
+Generating locales (this might take a while)...
+  zh_CN.UTF-8... done
+  zh_SG.UTF-8... done
+Generation complete.
+Log ended: 2023-01-08  17:00:01

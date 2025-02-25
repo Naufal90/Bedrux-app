@@ -1,0 +1,211 @@
+Package: cuda-drivers-fabricmanager-525
+Architecture: arm64
+Version: 525.60.13-0ubuntu0.22.04.1
+Priority: optional
+Section: multiverse/libs
+Source: fabric-manager-525
+Origin: Ubuntu
+Maintainer: Ubuntu Core Developers <ubuntu-devel-discuss@lists.ubuntu.com>
+Bugs: https://bugs.launchpad.net/ubuntu/+filebug
+Installed-Size: 16
+Provides: cuda-drivers-fabricmanager
+Depends: nvidia-fabricmanager-525 (= 525.60.13-0ubuntu0.22.04.1)
+Conflicts: cuda-drivers-fabricmanager
+Replaces: cuda-drivers-fabricmanager
+Filename: pool/multiverse/f/fabric-manager-525/cuda-drivers-fabricmanager-525_525.60.13-0ubuntu0.22.04.1_arm64.deb
+Size: 4406
+MD5sum: bb226b35c46570ebc25c548a4b116d0e
+SHA1: 5a6e7a3aaf7727932a1c647db66b7fb4808b8c55
+SHA256: 727ae33815fa27515d6091f7ce0a4f65f5e9a37c5e61c8346b4c33fdcbcffbe5
+SHA512: 73f494d2d9f408d5a77d04b848bd90f867a67052c9e240550013434f31dde327f0620ffb659f0de0a80a376779ea45d3ebd27bfd1218f5032f71d5d0c2df1a98
+Description: Meta-package for FM and Driver
+Description-md5: 6715a1a6e39ab2cdf04d9fe216556c20
+Phased-Update-Percentage: 60
+
+Package: libegl-mali-xlnx
+Architecture: arm64
+Version: 9p0.01rel0-1-0ubuntu1~22.04.1
+Priority: optional
+Section: multiverse/x11
+Origin: Ubuntu
+Maintainer: Alfonso Sanchez-Beato (email Canonical) <alfonso.sanchez-beato@canonical.com>
+Bugs: https://bugs.launchpad.net/ubuntu/+filebug
+Installed-Size: 7036
+Depends: libc6 (>= 2.29), libdrm2 (>= 2.4.3), libstdc++6 (>= 4.1.1), libwayland-client0 (>= 1.11.0), libwayland-server0 (>= 1.2.0), libx11-6 (>= 2:1.4.99.1), libxdamage1 (>= 1:1.1), libxext6, libxfixes3
+Filename: pool/multiverse/libe/libegl-mali-xlnx/libegl-mali-xlnx_9p0.01rel0-1-0ubuntu1~22.04.1_arm64.deb
+Size: 1420396
+MD5sum: aadad138cda54be0417ad87a7880a91b
+SHA1: 682b079114de900f1a111ef8cc4c88b684c2a9fc
+SHA256: 0ba0313c7664e1bc2c1ff6df6ee2e8f880ebad86eba2aa3a5730a8036d556f28
+SHA512: 64b4456be51229ce3968021c9bf94104d13c0d813ce192dcf5e62e24e4c86a269f17508cd73624b69377aa107cf94eaf5c039377bcfd15c9aacfd6b415a8bede
+Description: EGL closed source libraries for Mali devices integrated
+Description-md5: 15a94cd9718097d740b66c24d31cd1eb
+
+Package: libnvidia-nscq-525
+Architecture: arm64
+Version: 525.60.13-0ubuntu0.22.04.1
+Priority: optional
+Section: multiverse/libs
+Origin: Ubuntu
+Maintainer: Ubuntu Core Developers <ubuntu-devel-discuss@lists.ubuntu.com>
+Bugs: https://bugs.launchpad.net/ubuntu/+filebug
+Installed-Size: 1480
+Provides: libnvidia-nscq, nscq, nscq-api
+Conflicts: libnvidia-nscq
+Replaces: libnvidia-nscq
+Filename: pool/multiverse/libn/libnvidia-nscq-525/libnvidia-nscq-525_525.60.13-0ubuntu0.22.04.1_arm64.deb
+Size: 379176
+MD5sum: 455cb597b6bb59ddd4d384d0ec6eb147
+SHA1: ca471ab9eb3a90c40159118ff90670ef1480daf5
+SHA256: f6c5349b6c9d27b88588cd0ae6e463bd082cedaa146726187a701889c7ff2fc8
+SHA512: d7a1320116af7c92bdbfc6142234ea07b59f65cae9a7cc39f85a32282d6bc238447265d91f33d8c7dfff8ef05f7d05e3fd6b66a32cf7a2990bd39c9e79eb59f5
+Description: NVSwitch Configuration and Query library
+Description-md5: 06d90fb68ae67655c00815a4db03a64e
+Phased-Update-Percentage: 60
+
+Package: linux-firmware-mediatek-aiot
+Architecture: arm64
+Version: 2-0ubuntu1~22.04.1
+Priority: optional
+Section: multiverse/misc
+Origin: Ubuntu
+Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
+Bugs: https://bugs.launchpad.net/ubuntu/+filebug
+Installed-Size: 4143
+Filename: pool/multiverse/l/linux-firmware-mediatek-aiot/linux-firmware-mediatek-aiot_2-0ubuntu1~22.04.1_arm64.deb
+Size: 2499532
+MD5sum: a9c6c906be9a40810ee5571201a88ac1
+SHA1: 2f5b976a24d69abb37b2974c1a2b528b87223e65
+SHA256: d90b4aaaa117cbc3b6ae5bb9539826119f6c0255fac6cbb96533205ef5e0b813
+SHA512: 130e1f2bfb7f429b76eb18af63a5cf912449db339282ccc728aebfa1e90d912f19d083214cebc13970eb205f3033d7d6635da9a04b395d0165bab7a7cb75f566
+Homepage: https://git.kernel.org/pub/scm/linux/kernel/git/firmware/linux-firmware.git
+Description: Firmware for Mediatek AIoT boards
+Description-md5: c6592d45176bec71c6b569a300aece57
+
+Package: nvidia-fabricmanager-525
+Architecture: arm64
+Version: 525.60.13-0ubuntu0.22.04.1
+Priority: optional
+Section: multiverse/libs
+Source: fabric-manager-525
+Origin: Ubuntu
+Maintainer: Ubuntu Core Developers <ubuntu-devel-discuss@lists.ubuntu.com>
+Bugs: https://bugs.launchpad.net/ubuntu/+filebug
+Installed-Size: 8034
+Provides: nvidia-fabricmanager
+Conflicts: nvidia-fabricmanager
+Replaces: nvidia-fabricmanager
+Filename: pool/multiverse/f/fabric-manager-525/nvidia-fabricmanager-525_525.60.13-0ubuntu0.22.04.1_arm64.deb
+Size: 1639910
+MD5sum: 293e800c830f5a7fd0c2ecf9e7d5edc4
+SHA1: 442f8b95d1a23d551b11c23b5c6b0fa37b84bc0a
+SHA256: d47d33eabb6f5af1465a01faa543921f3217bee541db5d643afc6105fd8b7c91
+SHA512: 37d7d494d201d33b91a90058ba15a710ad935223e186aac363dcb982f83f453b919227b100ec2c36d96f561644f9f39dc3b538595c89eaa3551cae9c8708298f
+Description: Fabric Manager for NVSwitch based systems.
+Description-md5: 3d49e1346de8fc10beaca066b0eb5df0
+Phased-Update-Percentage: 60
+
+Package: nvidia-fabricmanager-dev-525
+Architecture: arm64
+Version: 525.60.13-0ubuntu0.22.04.1
+Priority: optional
+Section: multiverse/libs
+Source: fabric-manager-525
+Origin: Ubuntu
+Maintainer: Ubuntu Core Developers <ubuntu-devel-discuss@lists.ubuntu.com>
+Bugs: https://bugs.launchpad.net/ubuntu/+filebug
+Installed-Size: 1263
+Provides: nvidia-fabricmanager-dev
+Conflicts: nvidia-fabricmanager-dev
+Replaces: nvidia-fabricmanager-dev
+Filename: pool/multiverse/f/fabric-manager-525/nvidia-fabricmanager-dev-525_525.60.13-0ubuntu0.22.04.1_arm64.deb
+Size: 406408
+MD5sum: c2a2b507bfa1ad513c9c051f30dabc73
+SHA1: 2283d7f1a4048e77db4103dc5f7a7556ecd0768e
+SHA256: 8cfbe1bfc014c2dd3e3e4634c69e8ff884f77796092a7b3e5f2cbbeb317c7805
+SHA512: 882b5b202cffd3ca36fc90fae16da15506282b7253fda63ccb6d8bc81056ad1ae7f29211cab6b9ef7762a34af9108c630511ef6cef58816750e50ab3632bb0b7
+Description: Fabric Manager API headers and associated library
+Description-md5: 565605cc6a127d423c88c38e5c2f9a26
+Phased-Update-Percentage: 60
+
+Package: virtualbox-ext-pack
+Architecture: all
+Version: 6.1.38-1~ubuntu1.22.04.1
+Priority: extra
+Section: multiverse/misc
+Origin: Ubuntu
+Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
+Original-Maintainer: Debian Virtualbox Team <team+debian-virtualbox@tracker.debian.org>
+Bugs: https://bugs.launchpad.net/ubuntu/+filebug
+Installed-Size: 139
+Pre-Depends: debconf
+Depends: virtualbox (>= 6.1.38-dfsg-0~) | virtualbox-6.1, virtualbox (<< 6.1.38-dfsg-z) | virtualbox-6.1, wget, debconf (>= 0.5) | debconf-2.0
+Filename: pool/multiverse/v/virtualbox-ext-pack/virtualbox-ext-pack_6.1.38-1~ubuntu1.22.04.1_all.deb
+Size: 10768
+MD5sum: 053cf345fd2d48ad0b428d9b3e20b718
+SHA1: e8c60986db3b5486c16109baea7e9663dc52f41e
+SHA256: 4836f11c96e5cccd09a655cb98695b3e2d720ef8bdd5d7e9d5ea44fe37ad2bf7
+SHA512: 11e346cd30d85f3aca037506fc829ad19ff16d3f5407eb0d8940e2996ee0d4566bf5c3340bc4e9d66e4835a6eda3c8a407bfde695b6715996c15786b8eacb42d
+Homepage: https://www.virtualbox.org
+Description: extra capabilities for VirtualBox, downloader.
+Description-md5: d34299a0a1c7bf804958800947ea531c
+
+Package: virtualbox-guest-additions-iso
+Architecture: all
+Version: 6.1.38-1~ubuntu1.22.04.1
+Priority: extra
+Section: multiverse/misc
+Origin: Ubuntu
+Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
+Original-Maintainer: Debian Virtualbox Team <team+debian-virtualbox@tracker.debian.org>
+Bugs: https://bugs.launchpad.net/ubuntu/+filebug
+Installed-Size: 62413
+Recommends: virtualbox (>= 6.1.38)
+Conflicts: virtualbox-2.0, virtualbox-2.1, virtualbox-2.2, virtualbox-3.0, virtualbox-3.1, virtualbox-3.2, virtualbox-4.0, virtualbox-4.1, virtualbox-4.2, virtualbox-4.3, virtualbox-5.0, virtualbox-5.1, virtualbox-5.2, virtualbox-6.0
+Filename: pool/multiverse/v/virtualbox-guest-additions-iso/virtualbox-guest-additions-iso_6.1.38-1~ubuntu1.22.04.1_all.deb
+Size: 47941476
+MD5sum: ffeee1dd2ec1bbb9618f2eb6a51d8cdd
+SHA1: ae7c80d452838731cada352eb88f16fa27718adc
+SHA256: 89d0e0757702b839fd2a9fce3d96283a34d58a467fb8a0d33829e266b325280a
+SHA512: f6cc0856ecd593c6a5e2243658da92c51468a8fe02928c84c1866f219ba8a9c3d92964d8c67e4874b93d3f29a22a5b89ee4b8b862e68a7f306b051003c444ea2
+Homepage: https://www.virtualbox.org
+Description: guest additions iso image for VirtualBox
+Description-md5: 11a9eaac064138ec238f7c2ee4c018df
+
+Package: xlnx-default-bitstreams
+Architecture: arm64
+Version: 2022.1-0ubuntu1~22.04.1
+Priority: optional
+Section: multiverse/admin
+Origin: Ubuntu
+Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
+Bugs: https://bugs.launchpad.net/ubuntu/+filebug
+Installed-Size: 1845
+Filename: pool/multiverse/x/xlnx-default-bitstreams/xlnx-default-bitstreams_2022.1-0ubuntu1~22.04.1_arm64.deb
+Size: 43306
+MD5sum: c86139ed7f6f0e4a43398cbc8d9a29a5
+SHA1: 97ec4d9fc693e26a7bbf19982ba7fc8610a6aa0b
+SHA256: abd9901b6b0648f86ff84f8ded00ba8a1f5cadfb7edf567bce4e905d81d84e60
+SHA512: 4c589762f509a18fe4e3a2730786daabfd06ddb7d969f74e2689fbba95988698affb9b448546c32ba4e217e1a4a390a6f78bf63d85061f12c4cad4467675827c
+Description: The default FPGA firmware for Xilinx boards
+Description-md5: 29402da1dbbd1e4b346089613eb96378
+
+Package: xlnx-firmware
+Architecture: arm64
+Version: 2022.1-2-0ubuntu1~22.04.1
+Priority: optional
+Section: multiverse/admin
+Origin: Ubuntu
+Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
+Bugs: https://bugs.launchpad.net/ubuntu/+filebug
+Installed-Size: 4966
+Depends: u-boot-zynqmp, bootgen-xlnx
+Filename: pool/multiverse/x/xlnx-firmware/xlnx-firmware_2022.1-2-0ubuntu1~22.04.1_arm64.deb
+Size: 650718
+MD5sum: c2292f5169aa6571c5fc7ed79fc832e5
+SHA1: 24ef5563890de1eb46987a335858687244b53ec8
+SHA256: 6905d9b0c6636aa74d2a080aff79dcb3e995a988893defc3303ac012e0ed03a5
+SHA512: feadcab20e708a4a8c65da8acf30d282fb794847284055245885bf37bdf95b57f3af95c7a43bb741a290e9e7f9ed488c7f7b1052790657ec07baedfb533e39f0
+Description: Xilinx firmware for ZCU boards
+Description-md5: 46dd46d1220a348e3c4a8fee39e3d9f6
+

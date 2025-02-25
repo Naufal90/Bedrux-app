@@ -1,0 +1,490 @@
+Package: cockpit
+Architecture: all
+Version: 282-1~bpo22.04.1
+Multi-Arch: foreign
+Priority: optional
+Section: universe/admin
+Origin: Ubuntu
+Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
+Original-Maintainer: Utopia Maintenance Team <pkg-utopia-maintainers@lists.alioth.debian.org>
+Bugs: https://bugs.launchpad.net/ubuntu/+filebug
+Installed-Size: 72
+Depends: cockpit-bridge (>= 282-1~bpo22.04.1), cockpit-ws (>= 282-1~bpo22.04.1), cockpit-system (>= 282-1~bpo22.04.1)
+Recommends: cockpit-storaged (>= 282-1~bpo22.04.1), cockpit-networkmanager (>= 282-1~bpo22.04.1), cockpit-packagekit (>= 282-1~bpo22.04.1)
+Suggests: cockpit-doc (>= 282-1~bpo22.04.1), cockpit-pcp (>= 282-1~bpo22.04.1), cockpit-sosreport (>= 282-1~bpo22.04.1), xdg-utils
+Filename: pool/universe/c/cockpit/cockpit_282-1~bpo22.04.1_all.deb
+Size: 20448
+MD5sum: 6d3620d5f79cd8c0d2999918adbd9975
+SHA1: 580bc86e1522ebe2e419ce6a8fefd5bfe65fc2ca
+SHA256: 36bfbc7aed21bac648c1902c53c79d74a14d81c6ff1626e8b6cc1a3b1d02b4b8
+SHA512: 16bf6885b178a53012589d80bbd9060226455a3c1994b77ccc7d9a6ac7b8458843148493281ea003ca9b38282b2ea389fd7be2a01beb55866b0d8de9fb249bed
+Homepage: https://cockpit-project.org/
+Description: Web Console for Linux servers
+Description-md5: 24b0aa0c07779dcba10e15ca9244d9e9
+
+Package: cockpit-bridge
+Architecture: arm64
+Version: 282-1~bpo22.04.1
+Priority: optional
+Section: universe/admin
+Source: cockpit
+Origin: Ubuntu
+Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
+Original-Maintainer: Utopia Maintenance Team <pkg-utopia-maintainers@lists.alioth.debian.org>
+Bugs: https://bugs.launchpad.net/ubuntu/+filebug
+Installed-Size: 632
+Provides: cockpit-ssh
+Depends: libc6 (>= 2.34), libglib2.0-0 (>= 2.67.1), libjson-glib-1.0-0 (>= 1.5.2), libpolkit-agent-1-0 (>= 0.105), libpolkit-gobject-1-0 (>= 0.104), libssh-4 (>= 0.8.5), libsystemd0 (>= 235), glib-networking
+Breaks: cockpit-ws (<< 181.x)
+Replaces: cockpit-dashboard (<< 170.x), cockpit-ws (<< 181.x)
+Filename: pool/universe/c/cockpit/cockpit-bridge_282-1~bpo22.04.1_arm64.deb
+Size: 239178
+MD5sum: 0620773f902c486b9147ff0d864a3422
+SHA1: eb72116db26aa5d6138d4301c524e4a7189783d3
+SHA256: ce80b0468a65019667502dde8be57a06bd85a7c7aa7c9d3e229ddf7a07fb21c2
+SHA512: e1dfb7cacde102142345ccb3fdfa15c4e58ba71cccf971010743740954d76af905a1421c8479a3d23217252f016190051592229063a17b695b70bbb751b586b4
+Homepage: https://cockpit-project.org/
+Description: Cockpit bridge server-side component
+Description-md5: 34419f40043aa83e9a0fb5968fe56ce7
+
+Package: cockpit-doc
+Architecture: all
+Version: 282-1~bpo22.04.1
+Multi-Arch: foreign
+Priority: optional
+Section: universe/doc
+Source: cockpit
+Origin: Ubuntu
+Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
+Original-Maintainer: Utopia Maintenance Team <pkg-utopia-maintainers@lists.alioth.debian.org>
+Bugs: https://bugs.launchpad.net/ubuntu/+filebug
+Installed-Size: 527
+Filename: pool/universe/c/cockpit/cockpit-doc_282-1~bpo22.04.1_all.deb
+Size: 125888
+MD5sum: c7bbf01393dee35cc4bac0ff5322145c
+SHA1: 93833a6ed021821f4feb5dccd28d09fe09217728
+SHA256: d700bf045d48e79f320522c4e43fccda17361c76e68f339ff6d56af187586f3c
+SHA512: 878378359545b58575235c2ad1a4185e3fdc72f1a12580ec729b9a83007dc7a3ccc76934a32160e660d015960dc94424d88e5f447449bd913aca398cd1363861
+Homepage: https://cockpit-project.org/
+Description: Cockpit deployment and developer guide
+Description-md5: 917dc8f7798407683627da6ebb139a47
+
+Package: cockpit-machines
+Architecture: all
+Version: 279-1~bpo22.04.1
+Multi-Arch: foreign
+Priority: optional
+Section: universe/admin
+Origin: Ubuntu
+Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
+Original-Maintainer: Utopia Maintenance Team <pkg-utopia-maintainers@lists.alioth.debian.org>
+Bugs: https://bugs.launchpad.net/ubuntu/+filebug
+Installed-Size: 853
+Depends: cockpit-bridge (>= 215), libvirt-daemon-system, libvirt-clients | libvirt-bin, libvirt-dbus
+Recommends: virtinst (>= 3.0.0), python3-gi, gir1.2-libosinfo-1.0, qemu-block-extra
+Filename: pool/universe/c/cockpit-machines/cockpit-machines_279-1~bpo22.04.1_all.deb
+Size: 845612
+MD5sum: c79acc3a2a5b025196b259509e71336f
+SHA1: a542cac91668527333ac15c3ac656e47b14eb363
+SHA256: a411a5b05c8bb309868bf7e17bdc43e77608d6935f8436c677a48ff9b43b5e94
+SHA512: d93b34819e84dd98c0376892e24928d91228071936db597c4a75d1080b1fe7ebe52bf14ef53c82551827f509a25ea8fd2e2b2b2234e1e35e17754c75513334eb
+Homepage: https://github.com/cockpit-project/cockpit-machines
+Description: Cockpit user interface for virtual machines
+Description-md5: 0eb6768a5275b934fab3627c568646c9
+
+Package: cockpit-networkmanager
+Architecture: all
+Version: 282-1~bpo22.04.1
+Multi-Arch: foreign
+Priority: optional
+Section: universe/admin
+Source: cockpit
+Origin: Ubuntu
+Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
+Original-Maintainer: Utopia Maintenance Team <pkg-utopia-maintainers@lists.alioth.debian.org>
+Bugs: https://bugs.launchpad.net/ubuntu/+filebug
+Installed-Size: 556
+Depends: cockpit-bridge (>= 282-1~bpo22.04.1), network-manager (>= 1.6)
+Filename: pool/universe/c/cockpit/cockpit-networkmanager_282-1~bpo22.04.1_all.deb
+Size: 523224
+MD5sum: c1c7a669b8353779648ec3da20af1304
+SHA1: 265f9fa95cae90d9600f8e3bcde04aa388f007a6
+SHA256: a4c85a152b695e043392834ea3e5572a50dadc4f91f957145e1461f252010785
+SHA512: bebb844aee6f24c23e0f76cf085224b6d8d695374c7182823c375ce657930f7072af8b0dc3b3be742208109237377448ac39fc7613b6cbd64994c300f2460887
+Homepage: https://cockpit-project.org/
+Description: Cockpit user interface for networking
+Description-md5: 3ec1a60ecda81a24c8267c56cf7a9a3f
+
+Package: cockpit-packagekit
+Architecture: all
+Version: 282-1~bpo22.04.1
+Multi-Arch: foreign
+Priority: optional
+Section: universe/admin
+Source: cockpit
+Origin: Ubuntu
+Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
+Original-Maintainer: Utopia Maintenance Team <pkg-utopia-maintainers@lists.alioth.debian.org>
+Bugs: https://bugs.launchpad.net/ubuntu/+filebug
+Installed-Size: 665
+Depends: cockpit-bridge (>= 282-1~bpo22.04.1), packagekit, python3
+Filename: pool/universe/c/cockpit/cockpit-packagekit_282-1~bpo22.04.1_all.deb
+Size: 627358
+MD5sum: f45a0edf48cd7352b296766b8239e44d
+SHA1: 3c6d8b3a201045e46b88f13009b593adacd55a4a
+SHA256: ba1569fc0ee2db910b72fe1167f37661996d864602175e49e63669b4d63055a2
+SHA512: 1676df6617fc50f25cce3f081e86cdfd7a93842b7c9a6cd0d72daf07433e36fbda7d1b077f4fcb666bfdbf0c8a350d6a97f50c60412d5318d0c9ad3c2863f818
+Homepage: https://cockpit-project.org/
+Description: Cockpit user interface for packages
+Description-md5: 01ecbad973ab31bb91eb03019d4352aa
+
+Package: cockpit-pcp
+Architecture: arm64
+Version: 282-1~bpo22.04.1
+Priority: optional
+Section: universe/admin
+Source: cockpit
+Origin: Ubuntu
+Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
+Original-Maintainer: Utopia Maintenance Team <pkg-utopia-maintainers@lists.alioth.debian.org>
+Bugs: https://bugs.launchpad.net/ubuntu/+filebug
+Installed-Size: 192
+Depends: libc6 (>= 2.34), libglib2.0-0 (>= 2.67.1), libjson-glib-1.0-0 (>= 1.5.2), libpcp3, cockpit-bridge (>= 282-1~bpo22.04.1), pcp
+Filename: pool/universe/c/cockpit/cockpit-pcp_282-1~bpo22.04.1_arm64.deb
+Size: 63240
+MD5sum: 79b54276dfdc1935a05e2af620f9bba5
+SHA1: dfe0eca855756fa52c10f1d1a74c6c801b33d50e
+SHA256: cfc9b0ac6a279cfb7c410dbef9f3b53bbc5ba6fb45c5cabc08ae074e7c9aa775
+SHA512: 0a59e38d2e2b23076d150344722074f14cdd58c201189ff629e4e5a10d89c22f2daeb25f59dcedbc0a5a91e64d737064744baecea0818679b55eb8269f61ae2c
+Homepage: https://cockpit-project.org/
+Description: Cockpit PCP integration
+Description-md5: 2bcebebdc8b56e2cd8c2ba8755912a8f
+
+Package: cockpit-podman
+Architecture: all
+Version: 59-1~bpo22.04.1
+Multi-Arch: foreign
+Priority: optional
+Section: universe/admin
+Origin: Ubuntu
+Maintainer: Martin Pitt <martin.pitt@ubuntu.com>
+Original-Maintainer: Martin Pitt <mpitt@debian.org>
+Bugs: https://bugs.launchpad.net/ubuntu/+filebug
+Installed-Size: 574
+Depends: cockpit-bridge, podman (>= 2.0.4)
+Filename: pool/universe/c/cockpit-podman/cockpit-podman_59-1~bpo22.04.1_all.deb
+Size: 562996
+MD5sum: 0f9764683b127407305b1135e267bb11
+SHA1: 156e3414c0e87519044cb9ed13c0ea5243b6ea46
+SHA256: e149c205d08bdde8d3c205bf858e5acfb3cc8f84c810ed645b99eb9ac69ba5f1
+SHA512: 83045bb9808f9f659d31ca38c2299773c5f712890f7ce3c17387cfff9548e7ecf90e5a6e66a416f162e21ed5fd75fe74691c088a684e2843afd1a2f6da592c4b
+Homepage: https://github.com/cockpit-project/cockpit-podman
+Description: Cockpit component for Podman containers
+Description-md5: bd8bea62609a52119a9f55b9e9e77daf
+
+Package: cockpit-sosreport
+Architecture: all
+Version: 282-1~bpo22.04.1
+Multi-Arch: foreign
+Priority: optional
+Section: universe/admin
+Source: cockpit
+Origin: Ubuntu
+Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
+Original-Maintainer: Utopia Maintenance Team <pkg-utopia-maintainers@lists.alioth.debian.org>
+Bugs: https://bugs.launchpad.net/ubuntu/+filebug
+Installed-Size: 369
+Depends: cockpit-bridge (>= 282-1~bpo22.04.1), sosreport
+Filename: pool/universe/c/cockpit/cockpit-sosreport_282-1~bpo22.04.1_all.deb
+Size: 324794
+MD5sum: e02917fc29b6ff54fe6ff78a76bf4c88
+SHA1: ed9bd78d894f298803a6dda51bd5d8c0b0ae8eb3
+SHA256: e38817106b70cf3398bc55dea2cf44ad300863d475ca49592ddab269061d92c6
+SHA512: ad9fc8ce2974c4726f03e58eefa17ddeff9070f36c82503951ae1bbe05efa735f2cb6195cd19f731c2489c4cc25439e6fc2ddd2211f79229877459e64de18eb3
+Homepage: https://cockpit-project.org/
+Description: Cockpit user interface for diagnostic reports
+Description-md5: 4758fe190de68c7b853346fee5745606
+
+Package: cockpit-storaged
+Architecture: all
+Version: 282-1~bpo22.04.1
+Multi-Arch: foreign
+Priority: optional
+Section: universe/admin
+Source: cockpit
+Origin: Ubuntu
+Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
+Original-Maintainer: Utopia Maintenance Team <pkg-utopia-maintainers@lists.alioth.debian.org>
+Bugs: https://bugs.launchpad.net/ubuntu/+filebug
+Installed-Size: 658
+Depends: udisks2 (>= 2.9), libblockdev-mdraid2, cockpit-bridge (>= 282-1~bpo22.04.1), python3, python3-dbus
+Suggests: udisks2-lvm2
+Filename: pool/universe/c/cockpit/cockpit-storaged_282-1~bpo22.04.1_all.deb
+Size: 622112
+MD5sum: 4601e4a8b20a2898802cbd7868081865
+SHA1: 8812cad9a05f5db405128f27ecf5c1a39800fe34
+SHA256: 67ac50b6d7d199182688cb9ac36f2bcd6c5e94da07579fac056a68835c695061
+SHA512: 37be6d1b0ec42a7b4e5f5f71479a26060a369c8879a54776d51620a99c4ca14277b5957bd03d6e92349c681e42303d46012693ae2388701c0139b09c8e7f5d91
+Homepage: https://cockpit-project.org/
+Description: Cockpit user interface for storage
+Description-md5: c2ebe73ae22d08ed61f7619b0540e9d3
+
+Package: cockpit-system
+Architecture: all
+Version: 282-1~bpo22.04.1
+Multi-Arch: foreign
+Priority: optional
+Section: universe/admin
+Source: cockpit
+Origin: Ubuntu
+Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
+Original-Maintainer: Utopia Maintenance Team <pkg-utopia-maintainers@lists.alioth.debian.org>
+Bugs: https://bugs.launchpad.net/ubuntu/+filebug
+Installed-Size: 2649
+Provides: cockpit-shell, cockpit-systemd, cockpit-tuned, cockpit-users
+Depends: cockpit-bridge (>= 282-1~bpo22.04.1), libpwquality-tools, openssl
+Recommends: sudo | pkexec | policykit-1
+Conflicts: cockpit-shell
+Breaks: cockpit-dashboard
+Replaces: cockpit-dashboard, cockpit-shell
+Filename: pool/universe/c/cockpit/cockpit-system_282-1~bpo22.04.1_all.deb
+Size: 2553166
+MD5sum: 63aa95c6ea4a9e511ca9565931bfaa01
+SHA1: dfe50b3db391c39559f2297a326893f0a257b12f
+SHA256: 8977422f4d87e94b84e7400a1a63adad82b2e0e67fe1751a0c5b8e8bc036ccfa
+SHA512: 0de143de1d92578f8504ccff52dc13a720964887aaf4686cc1987de5fb5b853d46581e0620d336aaedc32c148145bf4a52e6136649a4df2ce27c640f64f9fa0d
+Homepage: https://cockpit-project.org/
+Description: Cockpit admin interface for a system
+Description-md5: 305239ce7fcb5c6043156a1e54c69f73
+
+Package: cockpit-tests
+Architecture: arm64
+Version: 282-1~bpo22.04.1
+Multi-Arch: foreign
+Priority: optional
+Section: universe/admin
+Source: cockpit
+Origin: Ubuntu
+Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
+Original-Maintainer: Utopia Maintenance Team <pkg-utopia-maintainers@lists.alioth.debian.org>
+Bugs: https://bugs.launchpad.net/ubuntu/+filebug
+Installed-Size: 532
+Provides: cockpit-test-assets
+Depends: libc6 (>= 2.17), libpam0g (>= 0.99.7.1), cockpit-system (>= 282-1~bpo22.04.1), openssh-client
+Conflicts: cockpit-test-assets
+Replaces: cockpit-test-assets
+Filename: pool/universe/c/cockpit/cockpit-tests_282-1~bpo22.04.1_arm64.deb
+Size: 444180
+MD5sum: 1f8e90cb98ccb6bbc879a4e819cee4a0
+SHA1: 1785233969cd10d5023ee05af3ec6eb0cc67a7b0
+SHA256: 3c92e0072935e18ffa2a24c4273362b84d9fe487757e86e99f95b8d85ce6c259
+SHA512: 7f196cefbaade972bacd97fad5c5be6d3b7c019bc6e2ab9f78c8d8944654822a050095212aaed873286967ba34ab91d84a4b093f9b3b055305375f8949222433
+Homepage: https://cockpit-project.org/
+Description: Tests for Cockpit
+Description-md5: 0b4ed46aa862cd96d493b081c605101e
+
+Package: cockpit-ws
+Architecture: arm64
+Version: 282-1~bpo22.04.1
+Priority: optional
+Section: universe/admin
+Source: cockpit
+Origin: Ubuntu
+Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
+Original-Maintainer: Utopia Maintenance Team <pkg-utopia-maintainers@lists.alioth.debian.org>
+Bugs: https://bugs.launchpad.net/ubuntu/+filebug
+Installed-Size: 1303
+Depends: libc6 (>= 2.34), libcrypt1 (>= 1:4.1.0), libglib2.0-0 (>= 2.67.1), libgnutls30 (>= 3.7.0), libgssapi-krb5-2 (>= 1.17), libjson-glib-1.0-0 (>= 1.5.2), libpam0g (>= 1.3.1), libsystemd0 (>= 237), glib-networking, adduser, openssl, systemd (>= 235)
+Suggests: sssd-dbus, python3
+Filename: pool/universe/c/cockpit/cockpit-ws_282-1~bpo22.04.1_arm64.deb
+Size: 802678
+MD5sum: 50ae80e9eb9e26400c266ab309be8835
+SHA1: f6aed7f678338497992e76c6fdefd6ceaf1cefa4
+SHA256: c81965220159b2b0618b5175efc492804dee60b20d41808fbfccd85009da96bc
+SHA512: 6f71a0901bd72cb8342c766c1c4eccd2fe8e6c131983636accacac916989c64f3f391006460d496008958b1da5279a04d8844f77c3036359a446cdbed8e8f472
+Homepage: https://cockpit-project.org/
+Description: Cockpit Web Service
+Description-md5: f492a869e15f8c92004032f384bce124
+
+Package: debuginfod
+Architecture: arm64
+Version: 0.188-1~bpo22.04.1
+Priority: optional
+Section: universe/devel
+Source: elfutils
+Origin: Ubuntu
+Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
+Original-Maintainer: Debian Elfutils Maintainers <debian-gcc@lists.debian.org>
+Bugs: https://bugs.launchpad.net/ubuntu/+filebug
+Installed-Size: 259
+Depends: libdebuginfod1 (= 0.188-1~bpo22.04.1), libarchive13 (>= 3.0.4), libc6 (>= 2.34), libdw1 (>= 0.177), libelf1 (>= 0.142), libgcc-s1 (>= 3.3.1), libmicrohttpd12 (>= 0.9.50), libsqlite3-0 (>= 3.7.15), libstdc++6 (>= 12)
+Filename: pool/universe/e/elfutils/debuginfod_0.188-1~bpo22.04.1_arm64.deb
+Size: 98820
+MD5sum: 3df13f0c0e3bded6e02e4cbbce177eb9
+SHA1: 4235ca289195a5600e5aca34cefef1f2bb629bee
+SHA256: 18f4415cc74ae80960b6b669a86db51e024699bb086ed7f16a687d272404dee8
+SHA512: 683644a138d893f6b99831705b704b8aa324794ce0cf4f88f495f9143fdd68f0bc8d9093de01661a316a9a9144932a979039f8fdde7a92f0ebd0848300e51c45
+Homepage: https://sourceware.org/elfutils/
+Description: debuginfo-related http file-server daemon
+Description-md5: 1ee7ebf3b25c14692d31b56419915fb2
+
+Package: gallery-dl
+Architecture: all
+Version: 1.24.2-1~bpo22.04.1
+Priority: optional
+Section: universe/web
+Origin: Ubuntu
+Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
+Original-Maintainer: Unit 193 <unit193@debian.org>
+Bugs: https://bugs.launchpad.net/ubuntu/+filebug
+Installed-Size: 1823
+Depends: python3-requests, python3:any
+Suggests: ffmpeg, python3-brotli, yt-dlp | youtube-dl
+Filename: pool/universe/g/gallery-dl/gallery-dl_1.24.2-1~bpo22.04.1_all.deb
+Size: 330518
+MD5sum: 810aa611fb740be74834b2dffc00ded4
+SHA1: 3be3d871a202962af0e60444ea5ae96bc4c7ccea
+SHA256: 54859428aa80b36005065561485bb23497bdc324729970ce535e8d6458e604df
+SHA512: 6b34c8d7ce918b01d071f0d20a9221f554bb0d55851d9b415b6ef17169f9a7d2f71822351145868298c9e6397e3d87fc698a8393fafac7157bb6d99796d95a82
+Homepage: https://github.com/mikf/gallery-dl
+Description: command-line program to download image galleries
+Description-md5: 0510bb32672915f74b92695fc9fb569d
+
+Package: limnoria
+Architecture: all
+Version: 2022.11.10-1~bpo22.04.1
+Priority: optional
+Section: universe/net
+Origin: Ubuntu
+Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
+Original-Maintainer: Mattia Rizzolo <mattia@debian.org>
+Bugs: https://bugs.launchpad.net/ubuntu/+filebug
+Installed-Size: 5110
+Depends: python3:any
+Recommends: iputils-ping, procps, python3-chardet, python3-cryptography, python3-dateutil, python3-feedparser, python3-gnupg, python3-socks, libpython3-stdlib (>= 3.9) | python3-tz
+Conflicts: supybot
+Filename: pool/universe/l/limnoria/limnoria_2022.11.10-1~bpo22.04.1_all.deb
+Size: 649386
+MD5sum: a18185e10d1d8236b26726fc8448a0a3
+SHA1: c1c642ddd7b8fbb275879adaf43aa54979b625e2
+SHA256: ec0864c13787738260f7c925648a6be583c99d24a468ca106e4309593daac198
+SHA512: be36625c77d5748963820f531ef74c3bca1c2e6e99a3c7a0a810fdebf9ad29e0758acca5d4e993585f02a2849de841a9d39193110a62cc57a76c0af2e60bff83
+Homepage: https://github.com/ProgVal/Limnoria
+Description: robust and user-friendly Python IRC bot
+Description-md5: 33156b967de31535f327652d89476669
+
+Package: nala
+Architecture: all
+Version: 0.11.1~bpo22.04.1
+Priority: optional
+Section: universe/admin
+Origin: Ubuntu
+Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
+Original-Maintainer: Volian Developers <volian-devel@volian.org>
+Bugs: https://bugs.launchpad.net/ubuntu/+filebug
+Installed-Size: 420
+Depends: python3-anyio, python3-httpx, python3-pexpect, python3-rich, python3-tomli, python3-typer, python3-typing-extensions, python3:any, apt, python3-apt
+Recommends: python3-socksio
+Filename: pool/universe/n/nala/nala_0.11.1~bpo22.04.1_all.deb
+Size: 103546
+MD5sum: 5dcfe883a8cb4815d324f41c856c5f65
+SHA1: 43690ded9dd76bdc371c4065954ae28cf8e08ee8
+SHA256: d0124a63b3040de7dd8fb72806864aafe1015ea6b3215d54fa2de43a2d829c0a
+SHA512: a150d2dd5b77403ecebe381a046827c75c31e3fdb23ad9ed36c18ac7a1f9fdf7fc51c4751e8d8a7899c49cda2c2c4ddf5180d299dd5720cc19c88ec80e7b5217
+Homepage: https://gitlab.com/volian/nala
+Description: Commandline frontend for the APT package manager
+Description-md5: b5d4a9749a15cec7aa34f09342af5c0a
+
+Package: opencpn
+Architecture: arm64
+Version: 5.6.2+dfsg-1~bpo22.04.1
+Priority: optional
+Section: universe/misc
+Origin: Ubuntu
+Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
+Original-Maintainer: Alec Leamas <leamas.alec@gmail.com>
+Bugs: https://bugs.launchpad.net/ubuntu/+filebug
+Installed-Size: 14630
+Depends: opencpn-data (>= 5.6.2+dfsg-1~bpo22.04.1), bzip2, libarchive13 (>= 3.0.4), libbz2-1.0, libc6 (>= 2.34), libcurl3-gnutls (>= 7.16.2), libelf1 (>= 0.131), libgcc-s1 (>= 3.3.1), libgl1, liblz4-1 (>= 0.0~r113), liblzma5 (>= 5.1.1alpha+20120614), libportaudio2 (>= 19+svn20101113), libsqlite3-0 (>= 3.6.5), libstdc++6 (>= 11), libtinyxml2.6.2v5 (>= 2.6.2), libudev1 (>= 183), libunarr1 (>= 1.0.0), libusb-1.0-0 (>= 2:1.0.16), libwxbase3.0-0v5 (>= 3.0.5.1+dfsg), libwxgtk-webview3.0-gtk3-0v5 (>= 3.0.5.1+dfsg), libwxgtk3.0-gtk3-0v5 (>= 3.0.5.1+dfsg), libwxsvg3 (>= 2:1.5.23+dfsg), libx11-6, zlib1g (>= 1:1.2.3.4)
+Recommends: wx3.0-i18n
+Suggests: binutils
+Breaks: opencpn-plugins (<< 4.8.8~)
+Replaces: opencpn-plugins (<< 4.8.8~)
+Filename: pool/universe/o/opencpn/opencpn_5.6.2+dfsg-1~bpo22.04.1_arm64.deb
+Size: 6094002
+MD5sum: bc6c24fbf9a12202d3efe48022d9db59
+SHA1: 67bcfbdfcba7980655f30045be491341162c2779
+SHA256: c6db6623752b527c4b375e451e74b3b68b1ce046cadbd428aea0c72032ed1f58
+SHA512: 55510245da8b5675152c48d89520bd4e4cb0b6e91deddcf81495244a7fa44cc7959fcdcde4caf5046d384004f47b1d0a8474109e971181cbc6c615ea7a603905
+Homepage: https://opencpn.org
+Description: Open Source Chartplotter and Marine GPS Navigation Software
+Description-md5: a6806f4419c635843fbf689a11f1ce21
+
+Package: opencpn-data
+Architecture: all
+Version: 5.6.2+dfsg-1~bpo22.04.1
+Multi-Arch: foreign
+Priority: optional
+Section: universe/misc
+Source: opencpn
+Origin: Ubuntu
+Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
+Original-Maintainer: Alec Leamas <leamas.alec@gmail.com>
+Bugs: https://bugs.launchpad.net/ubuntu/+filebug
+Installed-Size: 28050
+Filename: pool/universe/o/opencpn/opencpn-data_5.6.2+dfsg-1~bpo22.04.1_all.deb
+Size: 5769974
+MD5sum: 86146e664a8dc707bbfc11c2f0092a81
+SHA1: 06cf092d437be228cffca9a428a29fb02d91784b
+SHA256: aaa4444d8e142746e0663e7eb22a0f2a4124e7f0090b8286f1d6d843e91a2dc0
+SHA512: 2f74f2c00248386d7282b71aff35ca97cd924ebd8691762706d38ec241e9bbc20c6cd23ae71cce9efbc1a707e35928b1e443039d5ed65bf5f3ed0f37711ad85e
+Homepage: https://opencpn.org
+Description: Open Source Chartplotter and Marine GPS Navigation Software (data)
+Description-md5: c5b38ade4afd27eaae1e628fb50aa8e7
+
+Package: python3-socksio
+Architecture: all
+Version: 1.0.0-2~bpo22.04.1
+Priority: optional
+Section: universe/python
+Source: socksio
+Origin: Ubuntu
+Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
+Original-Maintainer: Sandro Tosi <morph@debian.org>
+Bugs: https://bugs.launchpad.net/ubuntu/+filebug
+Installed-Size: 65
+Depends: python3:any
+Filename: pool/universe/s/socksio/python3-socksio_1.0.0-2~bpo22.04.1_all.deb
+Size: 15148
+MD5sum: 91058d702224101f8edc5af14d877237
+SHA1: f9d190aa48710e0864c1c0cc2cd8b37d73bc0016
+SHA256: bae7e48330dc7afde974c046948d4f8ca07e3d09c6065721e6661defa4cc4451
+SHA512: ac0f056079b9f872129ee4ca040f04d76e0e3c5d5480ca240ceea3eb0700d366a6326964f538b33a30a3f4e28f3dbc5ea51f88cc7ec1d80aceb4cffeaf6d7dc9
+Homepage: https://github.com/sethmlarson/socksio
+Description: Sans-I/O implementation of SOCKS4, SOCKS4A, and SOCKS5
+Description-md5: c6eb2cf62cb76e81ffb65bd5bfa5f524
+
+Package: yt-dlp
+Architecture: all
+Version: 2022.11.11-1~bpo22.04.1
+Priority: optional
+Section: universe/web
+Origin: Ubuntu
+Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
+Original-Maintainer: Unit 193 <unit193@debian.org>
+Bugs: https://bugs.launchpad.net/ubuntu/+filebug
+Installed-Size: 9099
+Depends: python3-brotli, python3-certifi, python3-mutagen, python3-pycryptodome, python3-websockets, python3:any, python3-pkg-resources
+Recommends: aria2 | wget | curl, ca-certificates, ffmpeg, python3-pyxattr, rtmpdump
+Suggests: libfribidi-bin | bidiv, mpv | mplayer, phantomjs
+Filename: pool/universe/y/yt-dlp/yt-dlp_2022.11.11-1~bpo22.04.1_all.deb
+Size: 1633198
+MD5sum: 8cd3b3140cd90438344fd6ec89e9cdc7
+SHA1: f6b09fa689c8194ce3fdfa5cc3016e2df542e583
+SHA256: f3c10f4b8dab1850ccfd5e2a26682e2953fd2c196e7d616471c94bfd2ebd1c44
+SHA512: 07e578f1ae7820b29e708b8060ff6f58a56521d29436f9953d2cfd217c77f95765a9029c943bace27cf132db5f363e49843df2c6973400acf14c515a99bd297e
+Homepage: https://github.com/yt-dlp/yt-dlp
+Description: downloader of videos from YouTube and other sites
+Task: ubuntukylin-desktop
+Description-md5: 5313f74a62eca18026ae9d6bfaea0e8d
+

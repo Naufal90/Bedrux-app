@@ -1,0 +1,272 @@
+Package: cuda-drivers-fabricmanager-450
+Description-md5: 6715a1a6e39ab2cdf04d9fe216556c20
+Description-en: Meta-package for FM and Driver
+ Convenience meta-package for installing fabricmanager and the cuda-drivers
+ meta-package simultaneously while keeping version equivalence. This meta-
+ package is branch-specific.
+
+Package: cuda-drivers-fabricmanager-460
+Description-md5: 9eb2a396b56a6795e2a5e70ccb87e231
+Description-en: Transitional package for cuda-drivers-fabricmanager-510
+ This is a transitional package for cuda-drivers-fabricmanager-510, and can be
+ safely removed after the installation is complete.
+
+Package: cuda-drivers-fabricmanager-470
+Description-md5: 6715a1a6e39ab2cdf04d9fe216556c20
+Description-en: Meta-package for FM and Driver
+ Convenience meta-package for installing fabricmanager and the cuda-drivers
+ meta-package simultaneously while keeping version equivalence. This meta-
+ package is branch-specific.
+
+Package: cuda-drivers-fabricmanager-510
+Description-md5: c042110895aa3a6abc431d431fc85bed
+Description-en: Transitional package for cuda-drivers-fabricmanager-515
+ This is a transitional package for cuda-drivers-fabricmanager-515, and can be
+ safely removed after the installation is complete.
+
+Package: cuda-drivers-fabricmanager-525
+Description-md5: 6715a1a6e39ab2cdf04d9fe216556c20
+Description-en: Meta-package for FM and Driver
+ Convenience meta-package for installing fabricmanager and the cuda-drivers
+ meta-package simultaneously while keeping version equivalence. This meta-
+ package is branch-specific.
+
+Package: libcuda1-384
+Description-md5: c6dbe40660b5059827bb841b3e8d47a1
+Description-en: Transitional package for nvidia-headless-390
+ This is a transitional package for nvidia-headless-390, and can be
+ safely removed after the installation is complete.
+
+Package: libnvidia-nscq-450
+Description-md5: 06d90fb68ae67655c00815a4db03a64e
+Description-en: NVSwitch Configuration and Query library
+ NVIDIA NVSwitch Configuration and Query (NSCQ) library provides a
+ stable driver API used by DCGM for monitoring NVSwitch devices.
+
+Package: libnvidia-nscq-460
+Description-md5: a5a3ff49e04b212952436176f612dac4
+Description-en: Transitional package for libnvidia-nscq-510
+ This is a transitional package for libnvidia-nscq-510, and can be
+ safely removed after the installation is complete.
+
+Package: libnvidia-nscq-470
+Description-md5: 06d90fb68ae67655c00815a4db03a64e
+Description-en: NVSwitch Configuration and Query library
+ NVIDIA NVSwitch Configuration and Query (NSCQ) library provides a
+ stable driver API used by DCGM for monitoring NVSwitch devices.
+
+Package: libnvidia-nscq-510
+Description-md5: ba05d1c177ba9c73c05d203919c8b1f5
+Description-en: Transitional package for libnvidia-nscq-515
+ This is a transitional package for libnvidia-nscq-515, and can be
+ safely removed after the installation is complete.
+
+Package: libnvidia-nscq-525
+Description-md5: 06d90fb68ae67655c00815a4db03a64e
+Description-en: NVSwitch Configuration and Query library
+ NVIDIA NVSwitch Configuration and Query (NSCQ) library provides a
+ stable driver API used by DCGM for monitoring NVSwitch devices.
+
+Package: nvidia-fabricmanager-450
+Description-md5: 3d49e1346de8fc10beaca066b0eb5df0
+Description-en: Fabric Manager for NVSwitch based systems.
+ Fabric Manager for NVIDIA NVSwitch based systems.
+
+Package: nvidia-fabricmanager-460
+Description-md5: 127ff08d88ec25e06d9075de2427bd02
+Description-en: Transitional package for nvidia-fabricmanager-#FLAVOUR#
+ This is a transitional package for nvidia-fabricmanager-#FLAVOUR#, and can be
+ safely removed after the installation is complete.
+
+Package: nvidia-fabricmanager-470
+Description-md5: 3d49e1346de8fc10beaca066b0eb5df0
+Description-en: Fabric Manager for NVSwitch based systems.
+ Fabric Manager for NVIDIA NVSwitch based systems.
+
+Package: nvidia-fabricmanager-510
+Description-md5: 127ff08d88ec25e06d9075de2427bd02
+Description-en: Transitional package for nvidia-fabricmanager-#FLAVOUR#
+ This is a transitional package for nvidia-fabricmanager-#FLAVOUR#, and can be
+ safely removed after the installation is complete.
+
+Package: nvidia-fabricmanager-525
+Description-md5: 3d49e1346de8fc10beaca066b0eb5df0
+Description-en: Fabric Manager for NVSwitch based systems.
+ Fabric Manager for NVIDIA NVSwitch based systems.
+
+Package: nvidia-fabricmanager-dev-450
+Description-md5: 565605cc6a127d423c88c38e5c2f9a26
+Description-en: Fabric Manager API headers and associated library
+ Fabric Manager API headers and associated library
+
+Package: nvidia-fabricmanager-dev-460
+Description-md5: 4c618489bfcef074354d2863174c8037
+Description-en: Transitional package for nvidia-fabricmanager-dev-510
+ This is a transitional package for nvidia-fabricmanager-dev-510, and can be
+ safely removed after the installation is complete.
+
+Package: nvidia-fabricmanager-dev-470
+Description-md5: 565605cc6a127d423c88c38e5c2f9a26
+Description-en: Fabric Manager API headers and associated library
+ Fabric Manager API headers and associated library
+
+Package: nvidia-fabricmanager-dev-510
+Description-md5: d2e66eab593038c327ecd6f751864d99
+Description-en: Transitional package for nvidia-fabricmanager-dev-515
+ This is a transitional package for nvidia-fabricmanager-dev-515, and can be
+ safely removed after the installation is complete.
+
+Package: nvidia-fabricmanager-dev-525
+Description-md5: 565605cc6a127d423c88c38e5c2f9a26
+Description-en: Fabric Manager API headers and associated library
+ Fabric Manager API headers and associated library
+
+Package: nvidia-libopencl1-384
+Description-md5: c6dbe40660b5059827bb841b3e8d47a1
+Description-en: Transitional package for nvidia-headless-390
+ This is a transitional package for nvidia-headless-390, and can be
+ safely removed after the installation is complete.
+
+Package: nvidia-opencl-icd-384
+Description-md5: c6dbe40660b5059827bb841b3e8d47a1
+Description-en: Transitional package for nvidia-headless-390
+ This is a transitional package for nvidia-headless-390, and can be
+ safely removed after the installation is complete.
+
+Package: virtualbox
+Description-md5: 30f96d22c1a6ca04db16bdc1e79ad965
+Description-en: x86 virtualization solution - base binaries
+ VirtualBox is a free x86 virtualization solution allowing a wide range
+ of x86 operating systems such as Windows, DOS, BSD or Linux to run on a
+ Linux system.
+ .
+ This package provides the binaries for VirtualBox. Either the virtualbox-dkms
+ or the virtualbox-source package is also required in order to compile the
+ kernel modules needed for virtualbox. A graphical user interface for
+ VirtualBox is provided by the package virtualbox-qt.
+
+Package: virtualbox-dkms
+Description-md5: 4d42f0fe51c4a92f2aed5071f84524ae
+Description-en: x86 virtualization solution - kernel module sources for dkms
+ VirtualBox is a free x86 virtualization solution allowing a wide range
+ of x86 operating systems such as Windows, DOS, BSD or Linux to run on a
+ Linux system.
+ .
+ This package provides the source code for the virtualbox kernel module to be
+ build with dkms. Kernel sources or headers are required to compile this
+ module.
+
+Package: virtualbox-ext-pack
+Description-md5: d34299a0a1c7bf804958800947ea531c
+Description-en: extra capabilities for VirtualBox, downloader.
+ VirtualBox requires an extension pack to provide support for Remote
+ Desktop Protocol, USB 2.0, PXE booting for Intel network cards, etc.
+ This PUEL-licensed extension pack is free for personal use.
+ .
+ This package downloads the extension pack from internet during install.
+
+Package: virtualbox-guest-additions-iso
+Description-md5: 11a9eaac064138ec238f7c2ee4c018df
+Description-en: guest additions iso image for VirtualBox
+ VirtualBox is a free x86 virtualization solution allowing a wide range of
+ x86 operating systems such as Windows, DOS, BSD or Linux to run on a
+ Linux system.
+ .
+ This package provides an iso image which contains the guest additions
+ for Linux, Solaris and Windows to be installed on the host system. The guest
+ systems then can mount the iso and install the guest additions from there.
+
+Package: virtualbox-guest-utils
+Description-md5: 0c420aa026ad03a572b15c6e38dbebf7
+Description-en: x86 virtualization solution - non-X11 guest utilities
+ VirtualBox is a free x86 virtualization solution allowing a wide range
+ of x86 operating systems such as Windows, DOS, BSD or Linux to run on a
+ Linux system.
+ .
+ This package provides the non-X11 guest utilities for VirtualBox. These
+ utilities are meant to be run inside the virtual machine.
+ They provide closer integration and allow to share data through shared folders
+ between the host system and the virtual machine.
+
+Package: virtualbox-guest-utils-hwe
+Description-md5: 0c420aa026ad03a572b15c6e38dbebf7
+Description-en: x86 virtualization solution - non-X11 guest utilities
+ VirtualBox is a free x86 virtualization solution allowing a wide range
+ of x86 operating systems such as Windows, DOS, BSD or Linux to run on a
+ Linux system.
+ .
+ This package provides the non-X11 guest utilities for VirtualBox. These
+ utilities are meant to be run inside the virtual machine.
+ They provide closer integration and allow to share data through shared folders
+ between the host system and the virtual machine.
+
+Package: virtualbox-guest-x11
+Description-md5: 3487afde0b114ec7e205b11f1dd3f7a5
+Description-en: x86 virtualization solution - X11 guest utilities
+ VirtualBox is a free x86 virtualization solution allowing a wide range
+ of x86 operating systems such as Windows, DOS, BSD or Linux to run on a
+ Linux system.
+ .
+ This package provides the X11 guest utilities for VirtualBox. These utilities
+ are meant to be run inside the virtual machine.
+ They provide closer integration and improve the interactive performance.
+
+Package: virtualbox-guest-x11-hwe
+Description-md5: 3487afde0b114ec7e205b11f1dd3f7a5
+Description-en: x86 virtualization solution - X11 guest utilities
+ VirtualBox is a free x86 virtualization solution allowing a wide range
+ of x86 operating systems such as Windows, DOS, BSD or Linux to run on a
+ Linux system.
+ .
+ This package provides the X11 guest utilities for VirtualBox. These utilities
+ are meant to be run inside the virtual machine.
+ They provide closer integration and improve the interactive performance.
+
+Package: virtualbox-qt
+Description-md5: 41ed29f36ba23b3ce0155f9a8efcff60
+Description-en: x86 virtualization solution - Qt based user interface
+ VirtualBox is a free x86 virtualization solution allowing a wide range
+ of x86 operating systems such as Windows, DOS, BSD or Linux to run on a
+ Linux system.
+ .
+ This package provides the Qt based graphical user interface for VirtualBox.
+
+Package: virtualbox-source
+Description-md5: 53035ede584988f3413156cb7a5dbe8b
+Description-en: x86 virtualization solution - kernel module source
+ VirtualBox is a free x86 virtualization solution allowing a wide range
+ of x86 operating systems such as Windows, DOS, BSD or Linux to run on a
+ Linux system.
+ .
+ This package provides the source code for the virtualbox kernel module.
+ The virtualbox package is also required in order to make use of these
+ modules. Kernel sources or headers are required to compile this module.
+ .
+ The source is placed under /usr/src, and after decompression it can
+ be built to produce a virtualbox-modules-_KVERS_ providing
+ "virtualbox-modules" package.
+
+Package: libegl-mali-xlnx
+Description-md5: 15a94cd9718097d740b66c24d31cd1eb
+Description-en: EGL closed source libraries for Mali devices integrated
+ EGL closed source libraries for Mali devices integrated
+ in ZynqMP SoC, coming from Xilinx.
+
+Package: linux-firmware-mediatek-aiot
+Description-md5: c6592d45176bec71c6b569a300aece57
+Description-en: Firmware for Mediatek AIoT boards
+ This package contains all firmware required for Mediatek AIoT boards
+
+Package: xlnx-default-bitstreams
+Description-md5: 29402da1dbbd1e4b346089613eb96378
+Description-en: The default FPGA firmware for Xilinx boards
+ The default firmware with dynamic fancontrol enabled for Xilinx Kria
+ SOM boards. The programmable logic (PL) bitstream binary, Device tree
+ overlay source and json file required by dfx-mgr for Xilinx boards.
+
+Package: xlnx-firmware
+Description-md5: 46dd46d1220a348e3c4a8fee39e3d9f6
+Description-en: Xilinx firmware for ZCU boards
+ Image selector, first stage bootloader, PMU FW, ARM trusted firmware, and
+ bitstreams for Xilinx boards.
+

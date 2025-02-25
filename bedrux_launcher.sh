@@ -1,2 +1,3 @@
 #!/bin/bash
-./termux-rootfs/bin/bash -c "cd bedrux && ./bedrock_server"
+cd bedrux
+bash <(curl -s https://raw.githubusercontent.com/euphoriys/bedrux/main/setup.sh)

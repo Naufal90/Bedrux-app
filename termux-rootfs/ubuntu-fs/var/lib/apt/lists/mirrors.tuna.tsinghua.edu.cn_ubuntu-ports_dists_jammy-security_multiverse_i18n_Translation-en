@@ -1,0 +1,112 @@
+Package: cuda-drivers-fabricmanager-450
+Description-md5: 6715a1a6e39ab2cdf04d9fe216556c20
+Description-en: Meta-package for FM and Driver
+ Convenience meta-package for installing fabricmanager and the cuda-drivers
+ meta-package simultaneously while keeping version equivalence. This meta-
+ package is branch-specific.
+
+Package: cuda-drivers-fabricmanager-460
+Description-md5: 9eb2a396b56a6795e2a5e70ccb87e231
+Description-en: Transitional package for cuda-drivers-fabricmanager-510
+ This is a transitional package for cuda-drivers-fabricmanager-510, and can be
+ safely removed after the installation is complete.
+
+Package: cuda-drivers-fabricmanager-470
+Description-md5: 6715a1a6e39ab2cdf04d9fe216556c20
+Description-en: Meta-package for FM and Driver
+ Convenience meta-package for installing fabricmanager and the cuda-drivers
+ meta-package simultaneously while keeping version equivalence. This meta-
+ package is branch-specific.
+
+Package: cuda-drivers-fabricmanager-510
+Description-md5: c042110895aa3a6abc431d431fc85bed
+Description-en: Transitional package for cuda-drivers-fabricmanager-515
+ This is a transitional package for cuda-drivers-fabricmanager-515, and can be
+ safely removed after the installation is complete.
+
+Package: libcuda1-384
+Description-md5: c6dbe40660b5059827bb841b3e8d47a1
+Description-en: Transitional package for nvidia-headless-390
+ This is a transitional package for nvidia-headless-390, and can be
+ safely removed after the installation is complete.
+
+Package: libnvidia-nscq-450
+Description-md5: 06d90fb68ae67655c00815a4db03a64e
+Description-en: NVSwitch Configuration and Query library
+ NVIDIA NVSwitch Configuration and Query (NSCQ) library provides a
+ stable driver API used by DCGM for monitoring NVSwitch devices.
+
+Package: libnvidia-nscq-460
+Description-md5: a5a3ff49e04b212952436176f612dac4
+Description-en: Transitional package for libnvidia-nscq-510
+ This is a transitional package for libnvidia-nscq-510, and can be
+ safely removed after the installation is complete.
+
+Package: libnvidia-nscq-470
+Description-md5: 06d90fb68ae67655c00815a4db03a64e
+Description-en: NVSwitch Configuration and Query library
+ NVIDIA NVSwitch Configuration and Query (NSCQ) library provides a
+ stable driver API used by DCGM for monitoring NVSwitch devices.
+
+Package: libnvidia-nscq-510
+Description-md5: ba05d1c177ba9c73c05d203919c8b1f5
+Description-en: Transitional package for libnvidia-nscq-515
+ This is a transitional package for libnvidia-nscq-515, and can be
+ safely removed after the installation is complete.
+
+Package: nvidia-fabricmanager-450
+Description-md5: 3d49e1346de8fc10beaca066b0eb5df0
+Description-en: Fabric Manager for NVSwitch based systems.
+ Fabric Manager for NVIDIA NVSwitch based systems.
+
+Package: nvidia-fabricmanager-460
+Description-md5: 127ff08d88ec25e06d9075de2427bd02
+Description-en: Transitional package for nvidia-fabricmanager-#FLAVOUR#
+ This is a transitional package for nvidia-fabricmanager-#FLAVOUR#, and can be
+ safely removed after the installation is complete.
+
+Package: nvidia-fabricmanager-470
+Description-md5: 3d49e1346de8fc10beaca066b0eb5df0
+Description-en: Fabric Manager for NVSwitch based systems.
+ Fabric Manager for NVIDIA NVSwitch based systems.
+
+Package: nvidia-fabricmanager-510
+Description-md5: 127ff08d88ec25e06d9075de2427bd02
+Description-en: Transitional package for nvidia-fabricmanager-#FLAVOUR#
+ This is a transitional package for nvidia-fabricmanager-#FLAVOUR#, and can be
+ safely removed after the installation is complete.
+
+Package: nvidia-fabricmanager-dev-450
+Description-md5: 565605cc6a127d423c88c38e5c2f9a26
+Description-en: Fabric Manager API headers and associated library
+ Fabric Manager API headers and associated library
+
+Package: nvidia-fabricmanager-dev-460
+Description-md5: 4c618489bfcef074354d2863174c8037
+Description-en: Transitional package for nvidia-fabricmanager-dev-510
+ This is a transitional package for nvidia-fabricmanager-dev-510, and can be
+ safely removed after the installation is complete.
+
+Package: nvidia-fabricmanager-dev-470
+Description-md5: 565605cc6a127d423c88c38e5c2f9a26
+Description-en: Fabric Manager API headers and associated library
+ Fabric Manager API headers and associated library
+
+Package: nvidia-fabricmanager-dev-510
+Description-md5: d2e66eab593038c327ecd6f751864d99
+Description-en: Transitional package for nvidia-fabricmanager-dev-515
+ This is a transitional package for nvidia-fabricmanager-dev-515, and can be
+ safely removed after the installation is complete.
+
+Package: nvidia-libopencl1-384
+Description-md5: c6dbe40660b5059827bb841b3e8d47a1
+Description-en: Transitional package for nvidia-headless-390
+ This is a transitional package for nvidia-headless-390, and can be
+ safely removed after the installation is complete.
+
+Package: nvidia-opencl-icd-384
+Description-md5: c6dbe40660b5059827bb841b3e8d47a1
+Description-en: Transitional package for nvidia-headless-390
+ This is a transitional package for nvidia-headless-390, and can be
+ safely removed after the installation is complete.
+

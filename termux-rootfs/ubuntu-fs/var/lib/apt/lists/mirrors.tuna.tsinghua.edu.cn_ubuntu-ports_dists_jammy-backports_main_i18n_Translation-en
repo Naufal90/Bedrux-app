@@ -1,0 +1,104 @@
+Package: elfutils
+Description-md5: f888bb36a86d79063156ad9a0a117cad
+Description-en: collection of utilities to handle ELF objects
+ Elfutils is a collection of utilities, including eu-ld (a linker),
+ eu-nm (for listing symbols from object files), eu-size (for listing the
+ section sizes of an object or archive file), eu-strip (for discarding
+ symbols), eu-readelf (to see the raw ELF file structures), and eu-elflint
+ (to check for well-formed ELF files).
+
+Package: libasm-dev
+Description-md5: 013678075a0c3718f0cb70bbd4172cbb
+Description-en: libasm development libraries and header files
+ libasm1 allows you to create ELF files on a low level.
+ .
+ This package contains development libraries and header files for libasm1.
+
+Package: libasm1
+Description-md5: 109ac518b441c307fe4c75e886e56331
+Description-en: library with a programmable assembler interface
+ The libasm1 package provides a library with a programmable assembler
+ interface.  It allows you to create ELF files on a low level.
+ .
+ This library is part of elfutils.
+
+Package: libdebuginfod-common
+Description-md5: 2119791df8405022ae0834bc3112a0b5
+Description-en: configuration to enable the Debian debug info server
+ This package asks if it should enable use of the Debian debug info
+ server with debugging tools that use libdebuginfo such as GDB.
+ .
+ When this is allowed by the sysadmin, a snippet will be added to the
+ shell configuration. You will need to restart your shell after
+ installing this package before the snippet will work.
+ .
+ The Debian debug info server will be contacted every time debugging
+ tools attempt to look up debug info for binaries or libraries but the
+ server does not log requests for debug info.
+ .
+ The Debian debug info server uses https to securely transfer debugging
+ files but does not offer OpenPGP signing of debug info.
+
+Package: libdebuginfod-dev
+Description-md5: 9371082d55db239b8b7d2b8bd008b1bc
+Description-en: libdebuginfod development libraries and header files
+ libasm1 allows you to interact with debuginfod.
+ .
+ This package contains development libraries and header files for
+ libdebuginfod1.
+
+Package: libdebuginfod1
+Description-md5: d62f7cacb6384ca72053831f668bd54c
+Description-en: library to interact with debuginfod (development files)
+ The libdebuginfo1 package provides a library with an interface to interact
+ with debuginfod.
+ .
+ This library is part of elfutils.
+
+Package: libdw-dev
+Description-md5: f125fde79e7cf4843502f64d2aca123c
+Description-en: libdw1 development libraries and header files
+ libdw1 provides a library that provides access to DWARF debug information
+ stored inside ELF files.
+ .
+ This package contains development libraries and header files for libdw1.
+ .
+ It also contains a static version of libdw.  Only link to the static version
+ for special cases and when you don't need anything from the ebl backends.
+
+Package: libdw1
+Description-md5: 6238c70828caf72448d9f8116f0e5c97
+Description-en: library that provides access to the DWARF debug information
+ libdw1 provides a library that provides access to DWARF debug information
+ stored inside ELF files.
+ .
+ This library is part of elfutils.
+
+Package: libelf-dev
+Description-md5: 987fe60edac82d9ad80df9bdb9c08f33
+Description-en: libelf1 development libraries and header files
+ libelf1 provides a shared library which allows reading and writing of ELF
+ files on a high level.
+ .
+ This package contains development libraries and header files for libelf1.
+
+Package: libelf1
+Description-md5: 5188e87e91e6292255a5ccd72d2f25ed
+Description-en: library to read and write ELF files
+ The libelf1 package provides a shared library which allows reading and
+ writing ELF files on a high level.  Third party programs depend on
+ this package to read internals of ELF files.  The programs of the
+ elfutils package use it also to generate new ELF files.
+ .
+ This library is part of elfutils.
+
+Package: python3-pyelftools
+Description-md5: 1d7cb2f5023550580703e2f9f8c54fba
+Description-en: pure-python3 library for parsing ELF and DWARF
+ pyelftools is a pure-Python library for parsing and analyzing ELF
+ files and DWARF debugging information. It can be used to query
+ information about compiled binaries and libraries from your Python
+ code.
+ .
+ This package installs the library for Python 3.
+

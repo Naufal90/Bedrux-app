@@ -1,0 +1,8 @@
+Package: locales
+Architecture: arm64
+Auto-Installed: 1
+
+Package: language-pack-zh-hans-base
+Architecture: arm64
+Auto-Installed: 1
+
