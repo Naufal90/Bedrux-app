@@ -1,0 +1,45 @@
+TabbedPanel:
+    do_default_tab: False
+
+    TabbedPanelItem:
+        text: "Server"
+        ServerControl:
+
+    TabbedPanelItem:
+        text: "Folder Server"
+        FolderServer:
+
+    TabbedPanelItem:
+        text: "Tunneling"
+        Tunneling:
+
+<ServerControl>:
+    orientation: 'vertical'
+    Button:
+        text: 'Mulai Bedrux'
+        on_press: app.root.ids.server_tab.start_server()
+    Button:
+        text: 'Hentikan Bedrux'
+        on_press: app.root.ids.server_tab.stop_server()
+    TextInput:
+        id: log_console
+        readonly: True
+        multiline: True
+
+<FolderServer>:
+    orientation: 'vertical'
+    Button:
+        text: 'Buka Folder Server'
+        on_press: app.root.ids.folder_tab.open_folder()
+
+<Tunneling>:
+    orientation: 'vertical'
+    Button:
+        text: 'Jalankan Playit'
+        on_press: app.root.ids.tunnel_tab.start_playit()
+    Button:
+        text: 'Jalankan Ngrok'
+        on_press: app.root.ids.tunnel_tab.start_ngrok()
+    Button:
+        text: 'Hentikan Tunneling'
+        on_press: app.root.ids.tunnel_tab.stop_tunnel()
